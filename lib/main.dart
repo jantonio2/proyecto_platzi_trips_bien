@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'platzi_trips.dart';
+import 'platzi_trips_cupertino.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: PlatziTrips()
+      home: PlatziTripsCupertino()
     );
   }
 }
